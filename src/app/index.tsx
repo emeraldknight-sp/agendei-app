@@ -1,5 +1,8 @@
-import { Login } from "@/src/screens/login";
+import { Calendar } from "../screens/calendar";
+import { Home } from "../screens/home";
+import { Login } from "../screens/login";
+import { Register } from "../screens/register";
 
-export default function HomeScreen() {
-  return <Login />;
+export default function App() {
+  return <Calendar />;
 }
