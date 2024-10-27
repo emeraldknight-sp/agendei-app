@@ -20,10 +20,10 @@ export const Input = ({
   };
 
   return (
-    <View className="flex-row justify-between items-center bg-gray-100 rounded-md px-4 py-2">
+    <View className="flex-row justify-between items-center space-x-2 bg-zinc-100 rounded-md px-4 py-2">
       <TextInput
         placeholder={placeholder}
-        className="text-base"
+        className="text-base flex-1"
         cursorColor={colors.blue[500]}
         selectionColor={colors.blue[300]}
         secureTextEntry={showPassword}
