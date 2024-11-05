@@ -18,9 +18,9 @@ export const Button = ({
   return (
     <Pressable
       className={clsx(
-        "bg-blue-500 rounded-md px-3 py-3",
+        "bg-blue-500 justify-center items-center rounded-md px-3 py-3",
         color === "primary" ? "bg-blue-500" : "bg-red-500",
-        size === "md" ? "w-full px-3 py-3" : "px-2 py-2"
+        size === "md" ? "px-6 py-3" : "px-4 py-2"
       )}
       onPress={onPress}
       {...rest}
