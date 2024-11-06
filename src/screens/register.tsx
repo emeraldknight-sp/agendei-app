@@ -2,7 +2,7 @@ import { Button } from "../components/button";
 import { Image, Text, View } from "react-native";
 import { Input } from "../components/input";
 import { Link } from "expo-router";
-import { logo } from "../constants/icons";
+import { logo } from "../utils/data/icons";
 
 export const Register = () => {
   const register = () => console.log("REGISTRANDO!");

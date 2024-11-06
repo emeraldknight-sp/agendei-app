@@ -1,6 +1,6 @@
 import { CardDoctor } from "../components/card-doctor";
 import { FlatList, Text, View } from "react-native";
-import { doctors } from "../constants/data";
+import { doctors } from "../utils/data/doctors";
 
 export const Home = () => {
   return (

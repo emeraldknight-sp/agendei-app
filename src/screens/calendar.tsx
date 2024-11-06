@@ -1,6 +1,6 @@
 import { CardAppointment } from "../components/card-appointment";
 import { FlatList, View } from "react-native";
-import { appointments } from "../constants/data";
+import { appointments } from "../utils/data/appointments";
 
 export const Calendar = () => {
   return (

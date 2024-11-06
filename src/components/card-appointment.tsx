@@ -1,6 +1,6 @@
-import { Image, Pressable, Text, View } from "react-native";
-import { calendar, clock } from "../constants/icons";
 import { Button } from "./button";
+import { Image, Text, View } from "react-native";
+import { calendar, clock } from "../utils/data/icons";
 
 interface CardAppointmentProps {
   data: {

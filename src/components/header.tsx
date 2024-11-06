@@ -1,5 +1,5 @@
 import { Image, Text, View } from "react-native";
-import { logo } from "../constants/icons";
+import { logo } from "../utils/data/icons";
 
 interface HeaderProps {
   text?: string;

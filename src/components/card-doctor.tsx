@@ -1,5 +1,5 @@
 import { Image, Pressable, Text, View } from "react-native";
-import { female, male } from "../constants/icons";
+import { female, male } from "../utils/data/icons";
 
 interface CardDoctorProps {
   data: {
