@@ -1,10 +1,8 @@
-import { Feather } from "@expo/vector-icons";
-import { Tabs } from "expo-router";
-import { Image, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
 import colors from "tailwindcss/colors";
-import { logo } from "../constants/icons";
+import { Feather } from "@expo/vector-icons";
 import { Header } from "../components/header";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { Tabs } from "expo-router";
 
 export default function AppLayout() {
   return (
@@ -44,6 +42,7 @@ export default function AppLayout() {
           }}
         />
         <Tabs.Screen name="auth" options={{ href: null }} />
+        <Tabs.Screen name="aux" options={{ href: null }} />
       </Tabs>
     </SafeAreaView>
   );
